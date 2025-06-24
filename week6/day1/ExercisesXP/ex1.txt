@@ -1,0 +1,38 @@
+# ========= Quizz =========
+
+1. What is the key difference between traditional machine learning and deep learning?
+    It is the way features are extracted and learned.
+    Deep Learning learns features automatically from raw data while Machine Learning
+    requires manual feature engineering.
+
+2. How do artificial neural networks (ANNs) mimic the human brain?
+    Artificial Neural Networks mimic the structure and function of the human
+    brain by using layers of interconnected "neurons" that transmit and transform
+    information. 
+
+3. Why does deep learning perform better on large datasets compared to traditional machine learning?
+    Because it can autmatically learn complex patterns and hierarchical features, but it needs lots of data
+    to do that effectively. It has millions of parameters to train. It improves as data volume increases. 
+    It needs a lot of examples to gneralize well.
+
+4. What are some challenges of deep learning, and how can they be addressed?
+    - Need a lot of data 
+    - High computational cost 
+    - Hard to interpret (why the model made a decision)
+    - Overfitting
+
+5. What is feature engineering, and why is it not needed in deep learning?
+    It is the art of transforming raw data into meaningful inputs (features) that a machine learning model 
+    can understand ==> The human decides what's important and how to represent it. 
+        --> human-guided
+    Deep learning learns features automatically from raw data, it learns what to look at by itself
+        --> data-guided
+
+6. What role do hidden layers play in a deep learning model?
+    These layers are the layers between the input and the output. They are called "hidden" cause we don't see their
+    output directly. They gradually extract patterns, features and relations in order to predict well at the end. They
+    apply weights, biases and activation function, then pass transformed values to the next layer. 
+
+7. In an artificial neural network (ANN), what is the function of an activation function?
+    It is a mathematical function applied at each neuron to decide if it should pass information forward. 
+    Common ones are reLU (0, +infinity), Sigmoid (0, 1), Softmax
