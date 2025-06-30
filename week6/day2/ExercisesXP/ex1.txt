@@ -1,0 +1,57 @@
+1. Create a table comparing traditional machine learning and deep learning based on the following aspects:
+
+===== Feature Engineering =====
+ML: Requires manual feature extraction by experts. 
+    Model performance depends heavily on selected features.
+DL: Automatically learns relevant features from raw data during training.
+
+===== Data Processing =====
+ML: Works best with structured, clean, and preprocessed data (e.g., tables, CSV).
+DL: Can handle unstructured data like images, audio, and text with minimal preprocessing.
+
+===== Scalability =====
+ML: Limited scalability; performance doesn’t always improve with more data.
+DL: Highly scalable; performance improves significantly with large datasets.
+
+===== Pattern Discovery =====
+ML: Finds patterns only within the scope of the provided features.
+DL: Learns deep, hierarchical patterns directly from data through multiple layers.
+
+===== Computational Requirements =====
+ML: Moderate; can run on standard CPUs.
+DL: High; requires GPUs or TPUs for efficient training and inference.
+
+
+
+==========================================================================================================================================
+
+2. Identify one real-world problem where traditional ML is better suited and one where deep learning is the superior choice.
+
+===== Traditional Machine Learning is better for: =====
+Problem: Predicting customer churn for a small company
+Why:
+- The dataset is small (maybe a few hundred or thousand examples)
+- The data is structured (tables with columns like age, subscription length, usage, etc.)
+- Models like Logistic Regression, Random Forest, or XGBoost perform well
+- Training is fast and interpretable
+
+
+===== Deep Learning is better for: =====
+Problem: Voice recognition for a smart assistant (like Siri or Google Assistant)
+Why:
+- Huge amounts of unstructured audio data
+- Deep models (like RNNs, CNNs, or Transformers) can learn complex temporal patterns
+- Scalability and data-hungriness are a strength, not a weakness
+- Traditional ML can’t handle the raw audio directly — you’d need heavy feature engineering
+
+
+
+==========================================================================================================================================
+
+3. Write a short paragraph (3-5 sentences) explaining why deep learning has an advantage in unstructured data processing.
+
+Deep learning has a major advantage when working with unstructured data like images, text, or audio.
+Unlike traditional machine learning, which requires structured and manually engineered features, deep learning can automatically 
+learn useful patterns directly from raw data.
+Even when the data is messy or not clearly organized, neural networks can extract meaningful representations and make accurate predictions.
+This makes deep learning especially powerful in real-world applications where clean, structured datasets are rare.
